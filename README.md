@@ -5,11 +5,12 @@ Introduced difficulty level, add level property to Env class and World class.
 | difficult level | equipment   | enemy                           | Death     |
 | --------------- | ----------- | ------------------------------- | --------- |
 | 0               |             | remove both skeleton and zombie |           |
-| 2               |             |                                 | never die |
-| 3               | stone sword | remove zombie                   |           |
-| 4               | stone sword | remove skeleton                 |           |
-| 5               | stone sword |                                 |           |
-| 6               | wood sword  |                                 |           |
+| 1               |             |                                 | never die |
+| 2               | stone sword | remove zombie                   |           |
+| 3               | stone sword | remove skeleton                 |           |
+| 4               | stone sword |                                 |           |
+| 5               | wood sword  |                                 |           |
+| 6               | original    | original                        | original  |
 
 
 
