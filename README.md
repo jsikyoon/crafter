@@ -1,3 +1,20 @@
+
+**Added by CC**
+Introduced difficulty level, add level property to Env class and World class.
+
+| difficult level | equipment                | enemy                           | Death     |
+| --------------- | ------------------------ | ------------------------------- | --------- |
+| 0               |                          | remove both skeleton and zombie |           |
+| 2               |                          |                                 | never die |
+| 3               | iron sword / stone sword | remove zombie                   |           |
+| 4               | iron sword / stone sword | remove skeleton                 |           |
+| 5               | iron sword / stone sword |                                 |           |
+| 6               | wood sword               |                                 |           |
+
+
+
+
+
 **Status:** Stable release
 
 [![PyPI](https://img.shields.io/pypi/v/crafter.svg)](https://pypi.python.org/pypi/crafter/#history)
@@ -51,21 +68,21 @@ python3 -m crafter.run_gui      # Start the game
 <details>
 <summary>Keyboard mapping (click to expand)</summary>
 
-| Key | Action |
-| :-: | :----- |
-| WASD | Move around |
-| SPACE| Collect material, drink from lake, hit creature |
-| TAB | Sleep |
-| T | Place a table |
-| R | Place a rock |
-| F | Place a furnace |
-| P | Place a plant |
-| 1 | Craft a wood pickaxe |
-| 2 | Craft a stone pickaxe |
-| 3 | Craft an iron pickaxe |
-| 4 | Craft a wood sword |
-| 5 | Craft a stone sword |
-| 6 | Craft an iron sword |
+|  Key  | Action                                          |
+| :---: | :---------------------------------------------- |
+| WASD  | Move around                                     |
+| SPACE | Collect material, drink from lake, hit creature |
+|  TAB  | Sleep                                           |
+|   T   | Place a table                                   |
+|   R   | Place a rock                                    |
+|   F   | Place a furnace                                 |
+|   P   | Place a plant                                   |
+|   1   | Craft a wood pickaxe                            |
+|   2   | Craft a stone pickaxe                           |
+|   3   | Craft an iron pickaxe                           |
+|   4   | Craft a wood sword                              |
+|   5   | Craft a stone sword                             |
+|   6   | Craft an iron sword                             |
 
 </details>
 
