@@ -23,21 +23,6 @@ except ImportError:
     BaseClass = object
 
 
-"""
-Introduced difficulty level, add level property to Env class and World class.
-
-| difficult level | equipment | enemy | Death |
-| --------------- | --------- | ----- | ----- |
-| 0               |           |remove both skeleton and zombie | |
-| 2               |           |       |never die |
-| 3               | iron sword / stone sword | remove zombie | |
-| 4               | iron sword / stone sword | remove skeleton | |
-| 5               | iron sword / stone sword | | |
-| 6               | wood sword               | | |
-
-"""
-
-
 class Env(BaseClass):
     def __init__(
         self,
