@@ -26,7 +26,7 @@ except ImportError:
 class Env(BaseClass):
     def __init__(
         self,
-        level=0,
+        level=6,
         area=(64, 64),
         view=(9, 9),
         size=(64, 64),

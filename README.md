@@ -1,5 +1,7 @@
 
 **Added by CC**
+
+
 Introduced difficulty level, add level property to Env class and World class.
 
 | difficult level | equipment   | enemy                           | Death     |
